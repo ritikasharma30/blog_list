@@ -1,7 +1,7 @@
 import React from 'react'
 import CustomNavbar from '../common/Navbar/CustomNavbar'
 import { Container, Row } from 'reactstrap';
-import CustomCard from '../common/Card/CustomCard';
+import CustomCard from '../common/card/CustomCard';
 import useBlogList from '../../hooks/useBlogList';
 import { useNavigate } from "react-router-dom";
 import InfiniteScroll from 'react-infinite-scroll-component';
