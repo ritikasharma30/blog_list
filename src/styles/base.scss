@@ -1,0 +1,49 @@
+
+body {
+  margin: 0;
+  background: '#fff';
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+.authInner {
+    border: 2px solid #d3d3d3;
+    border-radius: .5em;
+    padding: 1em;
+    text-align: left;
+    width: 500px;
+    margin: 60px auto 0 auto;
+    padding: 20px;
+    h2{
+      text-align: center;
+    }
+    &.form{
+        padding: 1em;
+    }
+    &label {
+        font-weight: 600;
+      }
+      &SubmitBtn{
+          display: 'flex';
+      }
+      button{
+        margin: 10px 0;
+      }
+  }
+  .marginTop30{
+      margin-top: 30px;
+  }
+  .marginLeft30{
+    margin-left: 30px;
+  }
+  .flex{
+    display: flex;
+  }
+  .justifyCenter{
+    justify-content: center;
+  }
+  .textAlignCenter{
+    text-align: center;
+  }
